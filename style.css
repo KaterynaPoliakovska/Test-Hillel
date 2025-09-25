@@ -1,0 +1,88 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fff5f8, #ffe6f0);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.menu {
+  background-color: #ff80ab;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #330033;
+}
+
+.dog-info {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.dog-info .title {
+  font-size: 28px;
+  color: #cc0066;
+}
+
+.dog-info .dog-traits {
+  list-style: square;
+  text-align: left;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.invitation {
+  background-color: #ffe4e1;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.invitation h2 {
+  color: #660033;
+}
+
+.btn {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff4081;
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #cc0066;
+}
+
+.btn-primary:hover {
+  background-color: #99004d;
+}
